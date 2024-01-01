@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+.home{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.home >*{
+  width: 50%;
+}
+.info{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.links{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.links img{
+  height: 50px;
+  margin: 1rem;
+  padding: 0.5rem;
+}
+.imageSec{
+  border-radius: 50%;
+}
+.imageSec img{
+  border-radius: 50%;
+  height: 50%;
+  width: 60%;
+}
+.home h1{
+  font-size: 3.5rem;
+}
+.btn{
+  border: none;
+  background-color:rgb(51, 24, 225) ;
+  color: white;
+  height: 2.7rem;
+  text-align: center;
+  width: 30%;
+  border-radius: 25px;
+}
+.links img{
+  border-radius: 50%;
+  background-color: aqua;
+}
